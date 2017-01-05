@@ -8,7 +8,29 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
-<body>
+<body class="content-top">
+
+  <!-- グローバルナビ -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+        <span class="sr-only">メニュー</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">Bootstrap3の使い方</a>
+    </div>
+
+    <div id="gnavi" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Link1</a></li>
+        <li><a href="">Link2</a></li>
+        <li><a href="">Link3</a></li>
+      </ul>
+    </div>
+  </nav>
+
 
   <!--
     Bootstrapは、予め定義された約8000行のCSSを自分のプロジェクトとリンクさせることで、
@@ -52,9 +74,13 @@
       <div class="col-xs-6 visible-md red">mdの時表示</div>
       <div class="col-xs-6 hidden-md gray">mdの時消える</div>
     </div>
+    <div class="row">
+      <div class="col-xs-3"><img src="img/shinya.jpg" class="img-responsive img-circle"></div>
+    </div>
   </div>
 
   <!-- JSの読み込み -->
+  <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>

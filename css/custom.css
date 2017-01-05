@@ -16,3 +16,8 @@
   background-color: gray;
 }
 
+/* 固定グローバルメニュー用マージン */
+.content-top {
+  margin-top: 60px;
+}
+
